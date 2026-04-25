@@ -2,7 +2,7 @@ local player = game.Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
 
 local screenGui = Instance.new("ScreenGui")
-screenGui.Name = "TabbedGUI"
+screenGui.Name = "VINOM hub"
 screenGui.ResetOnSpawn = false
 screenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling  -- Add this
 screenGui.Parent = playerGui
