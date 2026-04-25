@@ -1120,7 +1120,7 @@ for i, tabName in ipairs(tabs) do
 		permDesyncBtn.Name = "PermDesyncButton"
 		permDesyncBtn.Size = UDim2.new(1, 0, 0, 40)
 		permDesyncBtn.Position = UDim2.new(0, 0, 0, 10)
-		permDesyncBtn.BackgroundColor3 = Color3.fromRGB(34, 197, 94)
+		permDesyncBtn.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
 		permDesyncBtn.Text = "Perm Desync"
 		permDesyncBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
 		permDesyncBtn.Font = Enum.Font.GothamBold
