@@ -1703,7 +1703,7 @@ end
 local function switchTab(tabName)
 	for name, button in pairs(tabButtons) do
 		if name == tabName then
-			button.BackgroundColor3 = Color3.fromRGB(59, 130, 246)
+			button.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
 			button.TextColor3 = Color3.fromRGB(255, 255, 255)
 		else
 			button.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
